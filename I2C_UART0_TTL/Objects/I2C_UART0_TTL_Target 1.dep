@@ -1,0 +1,106 @@
+Dependencies for Project 'I2C_UART0_TTL', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\main.c)(0x5F635683)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+I (inc/hw_memmap.h)(0x5F3B61BB)
+I (inc/hw_ints.h)(0x5F3B61BB)
+I (driverlib/debug.h)(0x5F3B61B9)
+I (driverlib/gpio.h)(0x5F437094)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC79924)
+I (driverlib/i2c.h)(0x5F3B61B9)
+I (driverlib/interrupt.h)(0x5F4370F6)
+I (driverlib/pin_map.h)(0x5F436DDC)
+I (driverlib/rom.h)(0x5F3B61B9)
+I (driverlib/rom_map.h)(0x5F3B61B9)
+I (driverlib/sysctl.h)(0x5F4370A8)
+I (driverlib/uart.h)(0x5F437023)
+I (utils/uartstdio.h)(0x5F3B61BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5EC79924)
+F (.\utils\uartstdio.c)(0x5F3B61BD)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\uartstdio.o --omf_browse .\objects\uartstdio.crf --depend .\objects\uartstdio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\inc/hw_ints.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_memmap.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_types.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_uart.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\driverlib/debug.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/interrupt.h)(0x5F4370F6)
+I (..\I2C_FreeRTOS\driverlib/rom.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/rom_map.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/sysctl.h)(0x5F4370A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\driverlib/uart.h)(0x5F437023)
+I (..\I2C_FreeRTOS\utils/uartstdio.h)(0x5F3B61BD)
+F (.\driverlib\gpio.c)(0x5F3B61B9)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\inc/hw_gpio.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_ints.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_memmap.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_sysctl.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_types.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\driverlib/debug.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/gpio.h)(0x5F437094)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\driverlib/interrupt.h)(0x5F4370F6)
+F (.\driverlib\cpu.c)(0x5F3B61B9)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\cpu.o --omf_browse .\objects\cpu.crf --depend .\objects\cpu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\driverlib/cpu.h)(0x5F449F37)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+F (.\driverlib\i2c.c)(0x5F5B7657)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\inc/hw_i2c.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_ints.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_memmap.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_sysctl.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_types.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\driverlib/debug.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/i2c.h)(0x5F5F5E83)
+I (..\I2C_FreeRTOS\driverlib/interrupt.h)(0x5F4370F6)
+F (.\driverlib\interrupt.c)(0x5F3B61B9)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\interrupt.o --omf_browse .\objects\interrupt.crf --depend .\objects\interrupt.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\inc/hw_ints.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_nvic.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_types.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\driverlib/cpu.h)(0x5F449F37)
+I (..\I2C_FreeRTOS\driverlib/debug.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/interrupt.h)(0x5F4370F6)
+F (.\driverlib\sysctl.c)(0x5F3B61B9)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\sysctl.o --omf_browse .\objects\sysctl.crf --depend .\objects\sysctl.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\inc/hw_ints.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_nvic.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_sysctl.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_types.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_flash.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\driverlib/cpu.h)(0x5F449F37)
+I (..\I2C_FreeRTOS\driverlib/debug.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/interrupt.h)(0x5F4370F6)
+I (..\I2C_FreeRTOS\driverlib/sysctl.h)(0x5F4370A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC79924)
+F (.\driverlib\uart.c)(0x5F4F2A26)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7991E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (..\I2C_FreeRTOS\inc/hw_ints.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_memmap.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_sysctl.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_types.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\inc/hw_uart.h)(0x5F3B61BB)
+I (..\I2C_FreeRTOS\driverlib/debug.h)(0x5F3B61B9)
+I (..\I2C_FreeRTOS\driverlib/interrupt.h)(0x5F4370F6)
+I (..\I2C_FreeRTOS\driverlib/uart.h)(0x5F437023)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC79924)
+F (RTE\Device\TM4C1294NCPDT\startup_TM4C129.s)(0x51BFCDB2)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "TM4C1294NCPDT SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_tm4c129.lst --xref -o .\objects\startup_tm4c129.o --depend .\objects\startup_tm4c129.d)
+F (RTE\Device\TM4C1294NCPDT\system_TM4C129.c)(0x52537AEC)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\driverlib -I .\FreeRTOS -I .\utils -I .\inc -I ..\I2C_FreeRTOS-I.\RTE\_Target_1-IC:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1294NCPDT -D_RTE_-o .\objects\system_tm4c129.o --omf_browse .\objects\system_tm4c129.crf --depend .\objects\system_tm4c129.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC79924)
+I (C:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129\TM4C129.h)(0x530EC1BE)
+I (C:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129\TM4C1294NCPDT.h)(0x530EC1BE)
+I (C:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EF44A)
+I (C:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Users\m\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Users\m\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129\system_TM4C129.h)(0x51BFCDB2)

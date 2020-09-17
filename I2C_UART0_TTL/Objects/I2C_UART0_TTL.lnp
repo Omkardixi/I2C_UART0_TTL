@@ -1,0 +1,15 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\uartstdio.o"
+".\objects\gpio.o"
+".\objects\cpu.o"
+".\objects\i2c.o"
+".\objects\interrupt.o"
+".\objects\sysctl.o"
+".\objects\uart.o"
+".\objects\startup_tm4c129.o"
+".\objects\system_tm4c129.o"
+--strict --scatter ".\Objects\I2C_UART0_TTL.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\I2C_UART0_TTL.map" -o .\Objects\I2C_UART0_TTL.axf
